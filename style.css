@@ -28,16 +28,17 @@ a {
 }
 
 #page-title {
-    text-align: center;
+  text-align: center;
+  margin: auto;
 }
 
 .post {
-    margin: 20px;
+    margin: 10px;
 
 }
 
 .postheader {
-    border-top: ;
+    border-top: dotted;
 }
 
 a[href$=".html"] {
@@ -50,3 +51,33 @@ img {
     margin-right: auto;
     width: 50%;
 }
+
+#navlist{
+  display: flex;
+  list-style: None;
+  margin: auto;
+}
+
+.navitem{
+    margin: 20px;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.navlink{
+    color: blue;
+}
+
+#posts{
+    display: flex;
+}
+
+
